@@ -1,0 +1,43 @@
+/* Defino: as cores das letras, a cor do fundo e a fonte das letras */
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Crio um display formatar para os elementos da navbar */
+ul {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     align-items: center;
+     padding: 16px;
+
+}
+/* Defino a cor do link e tiro a barra embaixo */
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Formato a imagem de perfil */
+img {
+    width: 150px;
+    right: 150px;
+    border-radius: 50%;
+    border: 5px solid royalblue;
+}
+/* Defino que os elemtentos dentro da classe center fiquem ao centro */
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: royalblue;
+}
+/* Defino que os elementos dentro da classe conteiner se distanciem 50px da esquerda e da direita */
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: royalblue;
+}
