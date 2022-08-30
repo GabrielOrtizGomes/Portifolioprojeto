@@ -42,12 +42,15 @@ nav a:hover {
     color: royalblue;
 }
 
+/* Defino o tamanho do espaço para escrever no input e coloco uma distancia de separação*/
+
 .contact-form input {
     width: 100%;
     padding: 8px 0px;
     margin: 8px 0px;
 }
 
+/* Deixo a parte da mensagem maior */
 .contact-form input[type=text]{
     height: 100px;
 }
